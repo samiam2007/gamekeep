@@ -1,0 +1,10 @@
+{
+  "name": "gamekeep",
+  "version": "1.0.0",
+  "description": "GameKeep - Board Game Library Management",
+  "scripts": {
+    "build": "echo 'Build handled by Vercel'"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
