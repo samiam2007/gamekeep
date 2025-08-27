@@ -1,0 +1,101 @@
+name: gamekeep
+description: AI-powered board game library and lending app
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core UI
+  cupertino_icons: ^1.0.6
+  flutter_native_splash: ^2.3.10
+  
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  firebase_analytics: ^10.8.9
+  firebase_crashlytics: ^3.4.18
+  firebase_messaging: ^14.7.19
+  
+  # Authentication
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^5.0.0
+  
+  # State Management
+  provider: ^6.1.1
+  riverpod: ^2.5.0
+  
+  # Local Storage
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+  
+  # AI/ML & Vision
+  google_mlkit_text_recognition: ^0.11.0
+  google_mlkit_barcode_scanning: ^0.10.0
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  image: ^4.1.7
+  
+  # Networking
+  dio: ^5.4.1
+  http: ^1.2.0
+  xml: ^6.5.0
+  connectivity_plus: ^5.0.2
+  
+  # UI Components
+  cached_network_image: ^3.3.1
+  flutter_staggered_grid_view: ^0.7.0
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+  
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+  share_plus: ^7.2.2
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^4.0.1
+  permission_handler: ^11.3.0
+  
+  # Ads
+  google_mobile_ads: ^5.0.0
+  
+  # Analytics
+  mixpanel_flutter: ^2.2.0
+  
+  # Payments
+  purchases_flutter: ^6.21.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  mocktail: ^1.0.3
+  fake_cloud_firestore: ^2.5.2
+  mockito: ^5.4.4
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Regular.ttf
+  #       - asset: fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/Poppins-Bold.ttf
+  #         weight: 700
